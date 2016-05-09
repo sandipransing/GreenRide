@@ -1,0 +1,52 @@
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: url('../../go_green1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.logo {
+    width: 400px;
+    height: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.bottom-column
+{
+    float: none;
+    display: table-cell;
+    vertical-align: bottom;
+    display: inline-block;
+}
+
+.modal-container {
+    position: relative;
+}
+.modal-container .modal, .modal-container .modal-backdrop {
+    position: absolute;
+}
+
+.dialog-car {
+    width: 500px;
+    height: 185px;
+    position: relative;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.dialog-title {
+    text-align: center;
+    font-size: 22px;
+    font-family: "Palatino";
+    font-weight: bold;
+}
+
+.dialog-description {
+    text-align: center;
+    font-size: 19px;
+    font-family: "Palatino";
+    font-weight: bold;
+}
